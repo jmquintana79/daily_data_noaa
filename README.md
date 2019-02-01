@@ -21,13 +21,13 @@ Open a terminal and run the following commands:
 > source activate daily
 # python path for the current activated environment
 > which python
-# setup the library (for example, using my Python path)
+# setup the library 
 > cd GHCNpy
-> /home/juan/miniconda3/envs/daily/bin/python setup.py install
+> /home/MYUSER/miniconda3/envs/daily/bin/python setup.py install
 # test the library
-> /home/juan/miniconda3/envs/daily/bin/python test.py
+> /home/MYUSER/miniconda3/envs/daily/bin/python test.py
 # include the virtual environment into the ipython kernel
-> /home/juan/miniconda3/envs/daily/bin/python -m ipykernel install --user --name "daily"
+> /home/MYUSER/miniconda3/envs/daily/bin/python -m ipykernel install --user --name "daily"
 ```
 
 ## First steps
